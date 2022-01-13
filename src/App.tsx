@@ -75,7 +75,7 @@ function App() {
                     </Card>
                 }>
                 </Route>
-                {/*<Route path="/*" element={<div>Error</div>}/>*/}
+                <Route path="/*" element={<div>Error</div>}/>
             </Routes>
         </div>
     );
