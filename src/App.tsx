@@ -18,7 +18,7 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path={'/'} element={
+                <Route path={'/testMiekke'} element={
                     <Card>
                         <Image
                             image={image1}
@@ -67,7 +67,7 @@ function App() {
                         />
                         <Button
                             buttonText={'Home page'}
-                            onClickButtonHandler={() => redirect('/')}
+                            onClickButtonHandler={() => redirect('/testMiekke')}
                             buttonText2={'Go back'}
                             onClickButtonHandler2={() => redirect('/page2')}
                             icons={icons}
