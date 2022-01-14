@@ -50,7 +50,7 @@ function App() {
                         />
                         <Button
                             buttonText={'Home page'}
-                            onClickButtonHandler={() => redirect('/')}
+                            onClickButtonHandler={() => redirect('/testMiekke')}
                         />
                     </Card>
                 }>
